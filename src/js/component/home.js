@@ -1,5 +1,8 @@
 import React from "react";
-
+import { cards } from "./cards.js";
+import { footer } from "./footer.js";
+import { jumbotron } from "./jumbotron.js";
+import { navbar } from "./navbar.js";
 //include images into your bundle
 import rigoImage from "../../img/rigo-baby.jpg";
 
