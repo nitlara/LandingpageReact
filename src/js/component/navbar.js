@@ -1,7 +1,7 @@
 import React from "react";
 import { Navbar, Nav, NavItem, NavDropdown, MenuItem } from "react-bootstrap";
 
-export function Navbar() {
+export function Navbar2() {
 	return (
 		<div>
 			<Navbar bg="dark" variant="dark">

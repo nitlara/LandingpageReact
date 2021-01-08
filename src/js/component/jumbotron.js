@@ -1,11 +1,13 @@
 import React from "react";
-import "bootstrap/dist/css/bootstrap.min.css";
+// en teoria no hay que importar así bootstrap no?
+//import "bootstrap/dist/css/bootstrap.min.css";
+//sino así:
+import "bootstrap";
 
+//Elementos bootstrap para este componente
 import Jumbotron from "react-bootstrap/Jumbotron";
 import Button from "react-bootstrap/Button";
 import Container from "react-bootstrap/Container";
-
-import "bootstrap";
 
 export function JumbotronComponent() {
 	return (
