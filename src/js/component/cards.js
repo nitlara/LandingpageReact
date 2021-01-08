@@ -2,23 +2,49 @@ import React from "react";
 
 import Card from "react-bootstrap/Card";
 import Button from "react-bootstrap/Button";
+import CardGroup from "react-bootstrap/CardGroup";
 
 import "bootstrap";
 
 export function Cards() {
 	return (
-		<Card style={{ width: "18rem" }}>
-			<Card.Img variant="top" src="holder.js/100px180" />
-			<Card.Body>
-				<Card.Title>Card Title</Card.Title>
-				<Card.Text>
-					<p>
-						Some quick example text to build on the card title and
-						make up the bulk of the card content.
-					</p>
-				</Card.Text>
-				<Button variant="primary">Go somewhere</Button>
-			</Card.Body>
-		</Card>
+		<CardGroup>
+			<Card>
+				<Card.Img variant="top" src="holder.js/100px160" />
+				<Card.Body>
+					<Card.Title>Card title</Card.Title>
+					<Card.Text>
+						This is a wider card with supporting text below as a
+						natural lead-in to additional content. This content is a
+						little bit longer.
+					</Card.Text>
+					<Button variant="primary">Go somewhere</Button>
+				</Card.Body>
+			</Card>
+			<Card>
+				<Card.Img variant="top" src="holder.js/100px160" />
+				<Card.Body>
+					<Card.Title>Card title</Card.Title>
+					<Card.Text>
+						This is a wider card with supporting text below as a
+						natural lead-in to additional content. This content is a
+						little bit longer.
+					</Card.Text>
+					<Button variant="primary">Go somewhere</Button>
+				</Card.Body>
+			</Card>
+			<Card>
+				<Card.Img variant="top" src="holder.js/100px160" />
+				<Card.Body>
+					<Card.Title>Card title</Card.Title>
+					<Card.Text>
+						This is a wider card with supporting text below as a
+						natural lead-in to additional content. This content is a
+						little bit longer.
+					</Card.Text>
+					<Button variant="primary">Go somewhere</Button>
+				</Card.Body>
+			</Card>
+		</CardGroup>
 	);
 }
