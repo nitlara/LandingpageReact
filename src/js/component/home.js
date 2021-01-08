@@ -1,4 +1,5 @@
 import React from "react";
+import "bootstrap/dist/css/bootstrap.min.css";
 import { Cards } from "./cards.js";
 import { Footer } from "./footer.js";
 import { Navbar } from "./navbar.js";
