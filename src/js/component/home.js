@@ -1,11 +1,12 @@
 import React from "react";
-import { cards } from "./cards.js";
-import { footer } from "./footer.js";
-import { jumbotron } from "./jumbotron.js";
-import { navbar } from "./navbar.js";
+import { Cards } from "./cards.js";
+import { Footer } from "./footer.js";
+import { Jumbotron } from "./jumbotron.js";
+import { Navbar } from "./navbar.js";
 
 //import boostrap elements
 import Jumbotron from "react-bootstrap/Jumbotron";
+import Button from "react-bootstrap/Button";
 
 //create your first component
 export function Home() {
