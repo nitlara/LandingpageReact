@@ -10,7 +10,7 @@ export function Cards() {
 	return (
 		<CardGroup>
 			<Card>
-				<Card.Img variant="top" src="holder.js/500x325" />
+				<Card.Img variant="top" src="http://placehold.it/500x325.jpg" />
 				<Card.Body>
 					<Card.Title>Card title</Card.Title>
 					<Card.Text>
@@ -22,7 +22,7 @@ export function Cards() {
 				</Card.Body>
 			</Card>
 			<Card>
-				<Card.Img variant="top" src="holder.js/500x325" />
+				<Card.Img variant="top" src="http://placehold.it/500x325.jpg" />
 				<Card.Body>
 					<Card.Title>Card title</Card.Title>
 					<Card.Text>
@@ -34,7 +34,7 @@ export function Cards() {
 				</Card.Body>
 			</Card>
 			<Card>
-				<Card.Img variant="top" src="holder.js/500x325" />
+				<Card.Img variant="top" src="http://placehold.it/500x325.jpg" />
 				<Card.Body>
 					<Card.Title>Card title</Card.Title>
 					<Card.Text>
@@ -46,7 +46,7 @@ export function Cards() {
 				</Card.Body>
 			</Card>
 			<Card>
-				<Card.Img variant="top" src="holder.js/500x325" />
+				<Card.Img variant="top" src="http://placehold.it/500x325.jpg" />
 				<Card.Body>
 					<Card.Title>Card title</Card.Title>
 					<Card.Text>
