@@ -12,6 +12,7 @@ export function Home() {
 			<Navbar2 />
 			<JumbotronComponent />
 			<Cards />
+			<Footer />
 		</div>
 	);
 }
