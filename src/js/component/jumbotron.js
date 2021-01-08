@@ -3,7 +3,7 @@ import Jumbotron from "react-bootstrap/Jumbotron";
 
 import "bootstrap";
 
-export function jumbotron() {
+export function Jumbotron() {
 	return (
 		<div>
 			<Jumbotron fluid>

@@ -11,10 +11,10 @@ import Jumbotron from "react-bootstrap/Jumbotron";
 export function Home() {
 	return (
 		<div className="container">
-			<navbar />
-			<jumbotron />
-			<cards />
-			<footer />
+			<Navbar />
+			<Jumbotron />
+			<Cards />
+			<Footer />
 		</div>
 	);
 }
