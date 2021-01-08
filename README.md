@@ -17,7 +17,10 @@ $ cd react-hello
 ```
 $ npm install
 ```
-
+##### and install the npm package BOOSRTRAP
+```
+$ npm install react-bootstrap bootstrap
+```
 ## Start coding!
 
 For Windows, Mac, Linux or Gitpod, start the webpack server with live reload:
