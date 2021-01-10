@@ -4,7 +4,21 @@ import { Navbar, Nav, NavItem, NavDropdown, MenuItem } from "react-bootstrap";
 export function Footer() {
 	return (
 		<div>
-			<Navbar bg="dark" variant="dark" />
+			<Navbar bg="dark" variant="dark" className="justify-content-center">
+				<div className="footer-copyright py-1 text-center">
+					2021 © Copyright:
+					<a
+						id="footer-link-react-copyright"
+						href="https://github.com/nitlara">
+						<strong> Nitalara </strong>
+					</a>
+					<a
+						id="footer-link-react-copyright"
+						href="https://github.com/Alvarodevs">
+						<strong> Alvarodevs </strong>
+					</a>
+				</div>
+			</Navbar>
 		</div>
 	);
 }

@@ -60,7 +60,12 @@
 		]
 	},
 	"dependencies": {
+		"@fortawesome/fontawesome-free": "^5.15.1",
+		"@fortawesome/free-solid-svg-icons": "^5.15.1",
+		"@fortawesome/react-fontawesome": "^0.1.14",
 		"bootstrap": "^4.5.3",
+		"bootstrap-icons-react": "^1.0.0",
+		"font-awesome": "^4.7.0",
 		"jquery": "^3.5.1",
 		"mdbootstrap": "^4.19.2",
 		"popper.js": "^1.12.9",
@@ -68,6 +73,7 @@
 		"query-string": "^5.1.1",
 		"react": "^16.8.6",
 		"react-bootstrap": "^1.4.3",
+		"react-bootstrap-icons": "^1.2.3",
 		"react-dom": "^16.8.6",
 		"react-polyfills": "0.0.1"
 	}
