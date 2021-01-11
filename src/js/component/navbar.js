@@ -22,13 +22,18 @@ export function Navbar2() {
 
 	return (
 		<div>
-			<Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
+			<Navbar
+				collapseOnSelect
+				expand="lg"
+				bg="dark"
+				variant="dark"
+				className="navbarcontainer fixed-top">
 				<Navbar.Brand href="#home">Start Bootstrap</Navbar.Brand>
 
 				<Navbar.Toggle aria-controls="responsive-navbar-nav" />
 
 				<Navbar.Collapse id="responsive-navbar-nav">
-					<Nav className="ml-auto">
+					<Nav className="ml-auto px-2">
 						<Nav.Link href="#home">Home</Nav.Link>
 						<Nav.Link href="#about">About</Nav.Link>
 						<Nav.Link href="#services">Services</Nav.Link>
