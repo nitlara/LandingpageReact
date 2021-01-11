@@ -10,7 +10,7 @@ export function Footer() {
 					<a
 						id="footer-link-react-copyright"
 						href="https://github.com/nitlara">
-						<strong> Nitalara </strong>
+						<strong> Nitlara </strong>
 					</a>
 					<a
 						id="footer-link-react-copyright"
