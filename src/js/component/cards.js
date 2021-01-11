@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 
 import Card from "react-bootstrap/Card";
 import Button from "react-bootstrap/Button";
@@ -25,9 +25,9 @@ export function Cards() {
 			</Card>
 			<Card className="mr-4 border rounded">
 				<Card.Img variant="top" src="http://placehold.it/500x325.jpg" />
-				<Card.Body>
-					<Card.Title>Card title</Card.Title>
-					<Card.Text>
+				<Card.Body className="p-0">
+					<Card.Title className="mx-3 mt-4"> Card title</Card.Title>
+					<Card.Text className="mx-3">
 						This is a wider card with supporting text below as a
 						natural lead-in to additional content. This content is a
 						little bit longer.
@@ -39,9 +39,9 @@ export function Cards() {
 			</Card>
 			<Card className="mr-4 border rounded">
 				<Card.Img variant="top" src="http://placehold.it/500x325.jpg" />
-				<Card.Body>
-					<Card.Title>Card title</Card.Title>
-					<Card.Text>
+				<Card.Body className="p-0">
+					<Card.Title className="mx-3 mt-4"> Card title</Card.Title>
+					<Card.Text className="mx-3">
 						This is a wider card with supporting text below as a
 						natural lead-in to additional content. This content is a
 						little bit longer.
@@ -53,9 +53,9 @@ export function Cards() {
 			</Card>
 			<Card className="border rounded">
 				<Card.Img variant="top" src="http://placehold.it/500x325.jpg" />
-				<Card.Body>
-					<Card.Title>Card title</Card.Title>
-					<Card.Text>
+				<Card.Body className="p-0">
+					<Card.Title className="mx-3 mt-4"> Card title</Card.Title>
+					<Card.Text className="mx-3">
 						This is a wider card with supporting text below as a
 						natural lead-in to additional content. This content is a
 						little bit longer.
