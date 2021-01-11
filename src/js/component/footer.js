@@ -5,7 +5,7 @@ export function Footer() {
 	return (
 		<div>
 			<Navbar bg="dark" variant="dark" className="justify-content-center">
-				<div className="footer-copyright py-1 text-center">
+				<div className="footer-copyright py-1 text-center my-3">
 					2021 © Copyright:
 					<a
 						id="footer-link-react-copyright"
