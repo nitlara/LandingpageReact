@@ -12,7 +12,7 @@ import Container from "react-bootstrap/Container";
 export function JumbotronComponent() {
 	return (
 		<div>
-			<Jumbotron fluid className="rounded mt-5">
+			<Jumbotron fluid className="rounded aboutjumbotron">
 				<Container>
 					<h1 className="display-3">A warm wellcome</h1>
 					<p>
