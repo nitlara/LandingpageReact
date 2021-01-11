@@ -9,7 +9,7 @@ import "bootstrap";
 export function Cards() {
 	return (
 		<CardGroup className="mb-4">
-			<Card className="mr-4 border rounded">
+			<Card className="mr-4 border rounded text-center">
 				<Card.Img variant="top" src="http://placehold.it/500x325.jpg" />
 				<Card.Body className="p-0">
 					<Card.Title className="mx-3 mt-4"> Card title</Card.Title>
@@ -23,7 +23,7 @@ export function Cards() {
 					</div>
 				</Card.Body>
 			</Card>
-			<Card className="mr-4 border rounded">
+			<Card className="mr-4 border rounded text-center">
 				<Card.Img variant="top" src="http://placehold.it/500x325.jpg" />
 				<Card.Body className="p-0">
 					<Card.Title className="mx-3 mt-4"> Card title</Card.Title>
@@ -37,7 +37,7 @@ export function Cards() {
 					</div>
 				</Card.Body>
 			</Card>
-			<Card className="mr-4 border rounded">
+			<Card className="mr-4 border rounded text-center">
 				<Card.Img variant="top" src="http://placehold.it/500x325.jpg" />
 				<Card.Body className="p-0">
 					<Card.Title className="mx-3 mt-4"> Card title</Card.Title>
@@ -51,7 +51,7 @@ export function Cards() {
 					</div>
 				</Card.Body>
 			</Card>
-			<Card className="border rounded">
+			<Card className="border rounded text-center">
 				<Card.Img variant="top" src="http://placehold.it/500x325.jpg" />
 				<Card.Body className="p-0">
 					<Card.Title className="mx-3 mt-4"> Card title</Card.Title>
