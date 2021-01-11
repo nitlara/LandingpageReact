@@ -28,7 +28,9 @@ export function Navbar2() {
 				bg="dark"
 				variant="dark"
 				className="navbarcontainer fixed-top">
-				<Navbar.Brand href="#home">Start Bootstrap</Navbar.Brand>
+				<Navbar.Brand href="#home" className="my-3">
+					Start Bootstrap
+				</Navbar.Brand>
 
 				<Navbar.Toggle aria-controls="responsive-navbar-nav" />
 
