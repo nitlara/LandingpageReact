@@ -8,20 +8,22 @@ import "bootstrap";
 
 export function Cards() {
 	return (
-		<CardGroup>
-			<Card>
+		<CardGroup className="mb-4">
+			<Card className="mr-4 border rounded">
 				<Card.Img variant="top" src="http://placehold.it/500x325.jpg" />
-				<Card.Body>
-					<Card.Title>Card title</Card.Title>
-					<Card.Text>
+				<Card.Body className="p-0">
+					<Card.Title className="mx-3 mt-4"> Card title</Card.Title>
+					<Card.Text className="mx-3">
 						This is a wider card with supporting text below as a
 						natural lead-in to additional content. This content is a
 						little bit longer.
 					</Card.Text>
-					<Button variant="primary">Go somewhere</Button>
+					<div className="card-footer bg-transparent">
+						<Button variant="primary">Find Out More!</Button>
+					</div>
 				</Card.Body>
 			</Card>
-			<Card>
+			<Card className="mr-4 border rounded">
 				<Card.Img variant="top" src="http://placehold.it/500x325.jpg" />
 				<Card.Body>
 					<Card.Title>Card title</Card.Title>
@@ -30,10 +32,12 @@ export function Cards() {
 						natural lead-in to additional content. This content is a
 						little bit longer.
 					</Card.Text>
-					<Button variant="primary">Go somewhere</Button>
+					<div className="card-footer bg-transparent">
+						<Button variant="primary">Find Out More!</Button>
+					</div>
 				</Card.Body>
 			</Card>
-			<Card>
+			<Card className="mr-4 border rounded">
 				<Card.Img variant="top" src="http://placehold.it/500x325.jpg" />
 				<Card.Body>
 					<Card.Title>Card title</Card.Title>
@@ -42,10 +46,12 @@ export function Cards() {
 						natural lead-in to additional content. This content is a
 						little bit longer.
 					</Card.Text>
-					<Button variant="primary">Go somewhere</Button>
+					<div className="card-footer bg-transparent ">
+						<Button variant="primary">Find Out More!</Button>
+					</div>
 				</Card.Body>
 			</Card>
-			<Card>
+			<Card className="border rounded">
 				<Card.Img variant="top" src="http://placehold.it/500x325.jpg" />
 				<Card.Body>
 					<Card.Title>Card title</Card.Title>
@@ -54,7 +60,9 @@ export function Cards() {
 						natural lead-in to additional content. This content is a
 						little bit longer.
 					</Card.Text>
-					<Button variant="primary">Go somewhere</Button>
+					<div className="card-footer bg-transparent">
+						<Button variant="primary">Find Out More!</Button>
+					</div>
 				</Card.Body>
 			</Card>
 		</CardGroup>
