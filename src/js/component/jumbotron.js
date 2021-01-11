@@ -12,9 +12,9 @@ import Container from "react-bootstrap/Container";
 export function JumbotronComponent() {
 	return (
 		<div>
-			<Jumbotron fluid className="rounded">
+			<Jumbotron fluid className="rounded mt-5">
 				<Container>
-					<h1>A warm wellcome</h1>
+					<h1 className="display-3">A warm wellcome</h1>
 					<p>
 						This is a modified jumbotron that occupies the entire
 						horizontal space of its parent. This is a modified
